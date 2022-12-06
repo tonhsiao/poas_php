@@ -1,0 +1,260 @@
+CI_DB_mysqli_driver Object
+(
+    [dsn] => 
+    [username] => noc
+    [password] => noc123
+    [hostname] => 10.64.52.133
+    [database] => fruit
+    [dbdriver] => mysqli
+    [subdriver] => 
+    [dbprefix] => 
+    [char_set] => utf8
+    [dbcollat] => utf8_general_ci
+    [encrypt] => 
+    [swap_pre] => 
+    [port] => 
+    [pconnect] => 
+    [conn_id] => mysqli Object
+        (
+            [affected_rows] => 1
+            [client_info] => mysqlnd 8.1.10
+            [client_version] => 80110
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 0
+            [error] => 
+            [error_list] => Array
+                (
+                )
+
+            [field_count] => 1
+            [host_info] => 10.64.52.133 via TCP/IP
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 8.0.30
+            [server_version] => 80030
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 237
+            [warning_count] => 0
+        )
+
+    [result_id] => mysqli_result Object
+        (
+            [current_field] => 0
+            [field_count] => 1
+            [lengths] => 
+            [num_rows] => 1
+            [type] => 0
+        )
+
+    [db_debug] => 1
+    [benchmark] => 0.0043370723724365
+    [query_count] => 5
+    [bind_marker] => ?
+    [save_queries] => 1
+    [queries] => Array
+        (
+            [0] => SELECT round(avg(brd_fetScore)) as brd_ispScore
+FROM `fruit_Test`
+WHERE `brd_insertDate` = '2022-12-05'
+AND `brd_fetScore` != 'None'
+AND `brd_fetScore` != ''
+AND  `brd_articleType` LIKE '%5G%' ESCAPE '!'
+            [1] => SELECT round(avg(brd_fetScore)) as brd_ispScore
+FROM `fruit_Test`
+WHERE `brd_insertDate` = '2022-12-05'
+AND `brd_fetScore` != 'None'
+AND `brd_fetScore` != ''
+AND  `brd_articleType` LIKE '%資費%' ESCAPE '!'
+            [2] => SELECT round(avg(brd_fetScore)) as brd_ispScore
+FROM `fruit_Test`
+WHERE `brd_insertDate` = '2022-12-05'
+AND `brd_fetScore` != 'None'
+AND `brd_fetScore` != ''
+AND  `brd_articleType` LIKE '%收訊%' ESCAPE '!'
+            [3] => SELECT round(avg(brd_fetScore)) as brd_ispScore
+FROM `fruit_Test`
+WHERE `brd_insertDate` = '2022-12-05'
+AND `brd_fetScore` != 'None'
+AND `brd_fetScore` != ''
+AND  `brd_articleType` LIKE '%網速%' ESCAPE '!'
+            [4] => SELECT round(avg(brd_fetScore)) as brd_ispScore
+FROM `fruit_Test`
+WHERE `brd_insertDate` = '2022-12-05'
+AND `brd_fetScore` != 'None'
+AND `brd_fetScore` != ''
+AND  `brd_articleType` LIKE '%其他%' ESCAPE '!'
+        )
+
+    [query_times] => Array
+        (
+            [0] => 0.0021700859069824
+            [1] => 0.00071597099304199
+            [2] => 0.00045990943908691
+            [3] => 0.00053501129150391
+            [4] => 0.00045609474182129
+        )
+
+    [data_cache] => Array
+        (
+        )
+
+    [trans_enabled] => 1
+    [trans_strict] => 1
+    [_trans_depth:protected] => 0
+    [_trans_status:protected] => 1
+    [_trans_failure:protected] => 
+    [cache_on] => 
+    [cachedir] => 
+    [cache_autodel] => 
+    [CACHE] => 
+    [_protect_identifiers:protected] => 1
+    [_reserved_identifiers:protected] => Array
+        (
+            [0] => *
+        )
+
+    [_escape_char:protected] => `
+    [_like_escape_str:protected] =>  ESCAPE '%s' 
+    [_like_escape_chr:protected] => !
+    [_random_keyword:protected] => Array
+        (
+            [0] => RAND()
+            [1] => RAND(%d)
+        )
+
+    [_count_string:protected] => SELECT COUNT(*) AS 
+    [return_delete_sql:protected] => 
+    [reset_delete_data:protected] => 
+    [qb_select:protected] => Array
+        (
+        )
+
+    [qb_distinct:protected] => 
+    [qb_from:protected] => Array
+        (
+        )
+
+    [qb_join:protected] => Array
+        (
+        )
+
+    [qb_where:protected] => Array
+        (
+        )
+
+    [qb_groupby:protected] => Array
+        (
+        )
+
+    [qb_having:protected] => Array
+        (
+        )
+
+    [qb_keys:protected] => Array
+        (
+        )
+
+    [qb_limit:protected] => 
+    [qb_offset:protected] => 
+    [qb_orderby:protected] => Array
+        (
+        )
+
+    [qb_set:protected] => Array
+        (
+        )
+
+    [qb_set_ub:protected] => Array
+        (
+        )
+
+    [qb_aliased_tables:protected] => Array
+        (
+        )
+
+    [qb_where_group_started:protected] => 
+    [qb_where_group_count:protected] => 0
+    [qb_caching:protected] => 
+    [qb_cache_exists:protected] => Array
+        (
+        )
+
+    [qb_cache_select:protected] => Array
+        (
+        )
+
+    [qb_cache_from:protected] => Array
+        (
+        )
+
+    [qb_cache_join:protected] => Array
+        (
+        )
+
+    [qb_cache_aliased_tables:protected] => Array
+        (
+        )
+
+    [qb_cache_where:protected] => Array
+        (
+        )
+
+    [qb_cache_groupby:protected] => Array
+        (
+        )
+
+    [qb_cache_having:protected] => Array
+        (
+        )
+
+    [qb_cache_orderby:protected] => Array
+        (
+        )
+
+    [qb_cache_set:protected] => Array
+        (
+        )
+
+    [qb_no_escape:protected] => Array
+        (
+        )
+
+    [qb_cache_no_escape:protected] => Array
+        (
+        )
+
+    [compress] => 
+    [delete_hack] => 1
+    [stricton] => 
+    [_mysqli:protected] => mysqli Object
+        (
+            [affected_rows] => 1
+            [client_info] => mysqlnd 8.1.10
+            [client_version] => 80110
+            [connect_errno] => 0
+            [connect_error] => 
+            [errno] => 0
+            [error] => 
+            [error_list] => Array
+                (
+                )
+
+            [field_count] => 1
+            [host_info] => 10.64.52.133 via TCP/IP
+            [info] => 
+            [insert_id] => 0
+            [server_info] => 8.0.30
+            [server_version] => 80030
+            [sqlstate] => 00000
+            [protocol_version] => 10
+            [thread_id] => 237
+            [warning_count] => 0
+        )
+
+    [failover] => Array
+        (
+        )
+
+)

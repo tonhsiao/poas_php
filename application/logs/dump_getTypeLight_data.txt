@@ -1,0 +1,13 @@
+Array
+(
+    [result] => 1
+    [light] => Array
+        (
+            [0] => greyLight
+            [1] => greyLight
+            [2] => greyLight
+            [3] => greyLight
+            [4] => greyLight
+        )
+
+)
